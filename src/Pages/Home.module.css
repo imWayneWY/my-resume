@@ -1,0 +1,45 @@
+.root{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.btn{
+  width: 300px;
+  height: 400px;
+  background: linear-gradient(135deg, #fff, #88df06);
+  border-radius: 30px;
+  box-shadow: 0 0 20px #000;
+  text-align: center;
+  font-size: 60px;
+  text-decoration: none;
+  color: #497704;
+  line-height: 400px;
+}
+.btn:hover{
+  animation: bouncing 1s;
+}
+
+
+@keyframes bouncing{
+  0%{
+    transform: scale3d(1,1,1)
+  }
+  35%{
+    transform: scale3d(1.25,.75,1)
+  }
+  45%{
+    transform: scale3d(.75,1,1)
+  }
+  60%{
+    transform: scale3d(1.2,.8,1)
+  }
+  75%{
+    transform: scale3d(1.05,.95,1)
+  }
+  100%{
+    transform: scale3d(1,1,1)
+  }
+}

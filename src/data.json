@@ -1,0 +1,72 @@
+{
+  "name": "WEI YAN",
+  "address": "1905-3500 Varsity Dr, NW, Calgary, T2L 1Y3",
+  "tel": "587-439-8687",
+  "email": "im.weiyan@foxmail.com",
+  "linkedIn": "https://www.linkedin.com/in/yan-wei-82575b198/",
+  "title": "FULL STACK DEVELOPER",
+  "desc": "Associate and highly motivated developer with passion and around 3 years’ experience in efficiently coding websites and applications using modern HTML, CSS, JavaScript, React.js, Node.js. Translate designs to front-end code. Eager to embrace challenges and learn more. Excited to bring my skills to a new environment as a Full-Stack developer.",
+  "skills": [
+    "Three years of work experience in building web applications. Projects including responsive website, single-page application and multi-page application.",
+    "Familiar with frameworks like React and related skills, such like redux, react-hook, react-router, webpack, babel etc. Scored in top 81st percentile of all React.js framework test takers using IKM TeckChek.",
+    "Confident with JavaScript, ES6, Html5, CSS3. Experience in TypeScript.",
+    "Ten years’ experience of working related to software engineering. Comfortable with asynchronous programming, testing and complicate workflows. A collaborative team worker with strong motivation.",
+    "Appropriate knowledge of back-end development (mainly in Node.js, Express) and database (like MongoDB, Redis). Deeply understand how the back-end and front-end work together with APIs like RESTful and GraphQL.",
+    "Familiar with front-end tools, like NPM, Yarn, Git, VScode, etc.",
+    "Enjoy solving complex problems in the independent work. Eager to study new technologies. A fast and passionate learner.",
+    "Experience in deploying websites on Linux server with Nginx.",
+    "Good at communication in English (CLBA-8) and Mandarin."
+  ],
+  "demos": [
+    {
+      "title": "React-UI-Library",
+      "desc": "A personal Project",
+      "link": "http://www.react-ui-library.com"
+    },
+    {
+      "title":"GitHub",
+      "desc": "Techniques: Next.js, koa2, Ant-Design, Redis",
+      "link": "https://github.com/imWayneWY/nextjs_study"
+    },
+    {
+      "title":"Blog Demo",
+      "desc": "Techniques: React, Express, Material-UI, MongoDB ",
+      "link": "https://github.com/imWayneWY/React-Express-Blog"
+    },
+    {
+      "title":"A mock of Groupon website for mobile",
+      "desc": "",
+      "link": "https://github.com/imWayneWY/react-dianping-groupbuying"
+    }
+  ],
+  "history":[
+    {
+      "title": "Remote Front-End Developer",
+      "time": "May 2019- Nov 2019",
+      "company": "Woohelps International Technology, Saskatoon, Canada",
+      "duties": [
+        "Quickly learned new program language and use it into works",
+        "Developed dynamic and user-friendly pages using JavaScript, HTML5 and CSS",
+        "Optimize the loading of images and improved the speed for about 20%",
+        "In charge of designing for chat page and article post page, which are the most visited pages now",
+        "Fixed bugs from existing code and implemented enhancements"
+      ]
+    },
+    {
+      "title": "Software Developer",
+      "time": "Sep 2008- Nov 2017",
+      "company": "Northeast Microelectronics Institute, China",
+      "duties": [
+        "Collaborated in building a web-based Office Automation System",
+        "Write compatible code which can work on different browsers",
+        "Experience in full lifecycle of software development with 100% on-time delivery",
+        "Experience in C++ Developer",
+        "Build platform for hard-ware test which improved the efficiency for about 30%"
+      ]
+    }
+  ],
+  "education": {
+    "title": "Bachelor’s degree of Computer Science",
+    "location": "Shenyang Aerospace University, China"
+  }
+}
