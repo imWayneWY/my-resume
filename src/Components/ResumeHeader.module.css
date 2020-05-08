@@ -1,0 +1,7 @@
+.header {
+  font-weight: bolder;
+  text-align: center;
+}
+.header a {
+  margin: 0 5px;
+}

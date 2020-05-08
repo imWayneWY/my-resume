@@ -14,13 +14,13 @@
     "Appropriate knowledge of back-end development (mainly in Node.js, Express) and database (like MongoDB, Redis). Deeply understand how the back-end and front-end work together with APIs like RESTful and GraphQL.",
     "Familiar with front-end tools, like NPM, Yarn, Git, VScode, etc.",
     "Enjoy solving complex problems in the independent work. Eager to study new technologies. A fast and passionate learner.",
-    "Experience in deploying websites on Linux server with Nginx.",
+    "Experience in deploying websites on Linux server with AWS, Docker, Nginx, Firebase.",
     "Good at communication in English (CLBA-8) and Mandarin."
   ],
   "demos": [
     {
       "title": "React-UI-Library",
-      "desc": "A personal Project",
+      "desc": "A personal Project, using techniques: react-hooks, typescript, jest, enzyme, AWS, Docker, Firebase",
       "link": "http://www.react-ui-library.com"
     },
     {
@@ -37,6 +37,11 @@
       "title":"A mock of Groupon website for mobile",
       "desc": "",
       "link": "https://github.com/imWayneWY/react-dianping-groupbuying"
+    },
+    {
+      "title": "Mock for Free Solitaire in Windows (An one day project)",
+      "desc": "",
+      "link": "https://github.com/imWayneWY/Free-Solitaire"
     }
   ],
   "history":[

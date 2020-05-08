@@ -1,0 +1,18 @@
+.root {
+  margin: 20px 40px;
+}
+.root h3{
+  font-style: italic;
+}
+.item{
+  margin: 10px;
+}
+.header {
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+.company {
+  font-style: italic;
+  margin: 0;
+}

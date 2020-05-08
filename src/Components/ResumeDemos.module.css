@@ -1,0 +1,18 @@
+.root {
+  margin: 20px 40px;
+}
+.root h3{
+  font-style: italic;
+}
+.desc{
+  font-size: medium;
+}
+.demo {
+  margin: 20px 60px;
+}
+.demo h4 {
+  margin: 5px 0;
+}
+.demo p {
+  margin : 5px 0;
+}
