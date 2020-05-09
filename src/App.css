@@ -17,6 +17,7 @@ body{
   color: #fff;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
 }
 .main{
   width: 80%;
@@ -26,9 +27,9 @@ body{
 .item{
   text-decoration: none;
   font-size: xx-large;
-  height: 40vh;
+  height: 30vh;
   width: 100%;
-  line-height: 40vh;
+  line-height: 30vh;
   text-align: center;
   color: white;
 }

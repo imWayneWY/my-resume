@@ -1,0 +1,69 @@
+.root {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #948f4b;
+
+  width: 960px;
+  height: 1024px;
+  z-index: 1000;
+  box-shadow: 20px -40px 20px rgba(0,0,0,.6);
+  transition: 1s;
+}
+
+.root:before{
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #343504;
+  transform-origin: bottom;
+  transform: skewX(-45deg);
+}
+.root:after{
+  content: '';
+  position: absolute;
+  right: -2px;
+  top:0;
+  width: 2px;
+  height: 100%;
+  background: rgb(80, 79, 15);
+  transform-origin: left;
+  transform: skewY(-45deg);
+}
+
+.page{
+  position: relative;
+  background: #fff;
+  width: 80%;
+  height: 80%;
+  margin: 40px auto;
+}
+
+.sticker {
+  cursor: pointer;
+  width: 180px;
+  height: 30px;
+  text-align: center;
+  color: rgba(0,0,0,.6);
+  line-height: 30px;
+  font-weight: bolder;
+  margin-left: -90px;
+  border: 1px solid rgba(200, 200, 200, .8);
+  background: rgba(254, 254, 254, .6);
+
+  -moz-box-shadow: 0px 0 3px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 0 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0 3px rgba(0, 0, 0, 0.1);
+
+  -moz-transform: rotate(-5deg); 
+  -webkit-transform: rotate(-5deg);
+  -o-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+
+  position: absolute;
+  left: 50%;
+  top: -15px;
+}
