@@ -3,3 +3,13 @@
   height: 100vh;
   position: relative;
 }
+.about {
+  width: auto;
+  margin: 0 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about a {
+  margin-left: 10px;
+}

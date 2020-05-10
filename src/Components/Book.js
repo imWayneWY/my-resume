@@ -1,7 +1,11 @@
 import React from 'react';
 import style from './Book.module.css';
 
-const Book = ({handleClick}) => {
+const Book = ({handleClick, handleSetType}) => {
+  const clickMenu = (type) => {
+    handleSetType(type);
+    handleClick(true);
+  }
   return(
     <div className={style.book}>
       <div className={style.cover}>
@@ -10,11 +14,11 @@ const Book = ({handleClick}) => {
         <h4>Front End / Full Stack Developer</h4>
         <div className={style.list}>
           <ul>
-            <li onClick={() => handleClick(true)}>About me ................................... &weierp;</li>
-            <li>Highlights of Skills .............. &weierp;</li>
-            <li>Demos .......................................... &weierp;</li>
-            <li>Employment history ......... &weierp;</li>
-            <li>Education ................................... &weierp;</li>
+            <li onClick={() => clickMenu('about')}>About me ................................... &weierp;</li>
+            <li onClick={() => clickMenu('skill')}>Highlights of Skills .............. &weierp;</li>
+            <li onClick={() => clickMenu('demo')}>Demos .......................................... &weierp;</li>
+            <li onClick={() => clickMenu('history')}>Employment history ......... &weierp;</li>
+            <li onClick={() => clickMenu('education')}>Education ................................... &weierp;</li>
           </ul>
         </div>
       </div>
