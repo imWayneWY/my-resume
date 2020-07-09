@@ -10,7 +10,7 @@ function App() {
     <div className='App'>
       <div className="menu">
         <a className="item" href='/#/'>Home</a>
-        <a className="item" href='/#/my-profile'>Profile</a>
+        <a className="item" href='/#/my-profile'>Portfolio</a>
         <a className="item" href='/#/my-resume'>Resume</a>
       </div>
       <Router className='main'>

@@ -19,6 +19,11 @@
   ],
   "demos": [
     {
+      "title": "Craigdarroch Castle",
+      "desc": "A static website using Gatsby, GraphQL, react-hooks",
+      "link": "https://crg-demo-fixed.netlify.app"
+    },
+    {
       "title": "React-UI-Library",
       "desc": "A personal Project, using techniques: react-hooks, typescript, jest, enzyme, AWS, Docker, Firebase",
       "link": "http://www.react-ui-library.com"
@@ -45,6 +50,16 @@
     }
   ],
   "history":[
+    {
+      "title": "Web Developer",
+      "time": "Jun 2020- Jul 2020",
+      "company": "NGX Interactive, Vancouver, Canada",
+      "duties": [
+        "Using Gatsby.js to build static website",
+        "Transfer a tablet application to web-based application",
+        "Build for responsive web application for both desktop and mobile version"
+      ]
+    },
     {
       "title": "Remote Front-End Developer",
       "time": "May 2019- Nov 2019",
