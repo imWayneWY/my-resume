@@ -21,7 +21,7 @@
     {
       "title": "Craigdarroch Castle",
       "desc": "A static website using Gatsby, GraphQL, react-hooks",
-      "link": "https://crg-demo-fixed.netlify.app"
+      "link": "http://tour.thecastle.ca/"
     },
     {
       "title": "React-UI-Library",
