@@ -9,7 +9,7 @@
   "skills": [
     "Three years of work experience in building web applications. Projects including responsive website, single-page application and multi-page application.",
     "Familiar with frameworks like React and related skills, such like redux, react-hook, react-router, webpack, babel etc. Scored in top 81st percentile of all React.js framework test takers using IKM TeckChek.",
-    "Confident with JavaScript, ES6, Html5, CSS3. Experience in TypeScript.",
+    "Confident with JavaScript, ES6, Html5, CSS3. Experience in TypeScript and React-Native.",
     "Ten years’ experience of working related to software engineering. Comfortable with asynchronous programming, testing and complicate workflows. A collaborative team worker with strong motivation.",
     "Appropriate knowledge of back-end development (mainly in Node.js, Express) and database (like MongoDB, Redis). Deeply understand how the back-end and front-end work together with APIs like RESTful and GraphQL.",
     "Familiar with front-end tools, like NPM, Yarn, Git, VScode, etc.",
@@ -50,6 +50,15 @@
     }
   ],
   "history":[
+    {
+      "title": "Frontend Developer",
+      "time": "Jul 2020- Present",
+      "company": "Fantuan Delivery, Vancouver, Canada",
+      "duties": [
+        "Building groupon app platform using typescript and react-native",
+        "In charge of creating Wechat mini program"
+      ]
+    },
     {
       "title": "Web Developer",
       "time": "Jun 2020- Jul 2020",
