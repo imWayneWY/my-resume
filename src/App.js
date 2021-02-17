@@ -4,6 +4,7 @@ import Home from './Pages/Home';
 import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Profile from './Pages/Profile';
+import PdfResume from './Pages/PdfResume';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route exact path='/' component={Home} />
           <Route exact path='/my-resume' component={Resume} />
           <Route exact path='/my-profile' component={Profile} />
+          <Route exact path='/my-pdf-resume' component={PdfResume} />
         </Switch>
       </Router>
     </div>
