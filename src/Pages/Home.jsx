@@ -10,7 +10,7 @@ const Home = () => {
         <Link className={style.btn} to="/my-resume"><Card title="RESUME" desc="The official resume showing in business way" /></Link>
         <Link className={style.btn} to="/my-profile"><Card title="PORTFOLIO" desc="A personal web page with animations" /></Link>
       </div>
-      <p className={style.desc}>The resume and portfolio have same content, just present in different ways</p>
+      {/* <p className={style.desc}>The resume and portfolio have same content, just present in different ways</p> */}
     </div>
   )
 }

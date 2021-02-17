@@ -17,9 +17,9 @@ function App() {
       <Router className='main'>
         <Switch>
           <Route exact path='/' component={Home} />
-          <Route exact path='/my-resume' component={Resume} />
+          {/* <Route exact path='/my-resume' component={Resume} /> */}
           <Route exact path='/my-profile' component={Profile} />
-          <Route exact path='/my-pdf-resume' component={PdfResume} />
+          <Route exact path='/my-resume' component={PdfResume} />
         </Switch>
       </Router>
     </div>
